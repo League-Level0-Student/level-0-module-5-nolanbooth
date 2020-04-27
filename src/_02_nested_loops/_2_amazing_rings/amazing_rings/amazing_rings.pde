@@ -1,10 +1,22 @@
 
 void setup() {
-  
+  size(500,500);
+
 }
 
 void draw() {
+int s = 30;
+int x = 50;
+int y = 200;
+ 
   
+
+ for(int i = 0; i < 10; i++){   
+x++;
+
+
+   ellipse(x,y,s,s);
+ }
   // Go to the recipe to run the demonstration before starting this program
   
   /*
