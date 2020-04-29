@@ -1,18 +1,18 @@
-int s = 400;
+int s = 700;
 float x = 200;
-int y = 300;
-float x2 = 800;
-int y2 = 300;
+int y = 500;
+float x2 = 1000;
+int y2 = 500;
 void setup() {
-  size(1000, 600);
+  size(1500, 1000);
 }
 
 void draw() {
 background(181,181,181);
   drawCircleOne(); 
 drawCircleTwo();
-x+= 0.5;
-x2-= 0.5;
+x+= 3.5;
+x2-= 3.5;
 
  }
   

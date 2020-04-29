@@ -16,6 +16,13 @@ public class A_Java_Class_For_Coding_And_Algorithm_Things {
 
 		}
 		}
-JOptionPane.showMessageDialog(null, "The number is prime.");
-	}
+JOptionPane.showMessageDialog(null, "The number is prime.");	
+for (int i = 0; i < 5; i++) {
+
+	for (int j = 0; j < 5; j++) {
+System.out.print("hello");	
+}	
+System.out.print("hello");
+}
+	}	
 }
