@@ -30,7 +30,7 @@ else if (answer.equalsIgnoreCase("triangle")) {
 	public void drawCircle() {
 		bill.penDown();
 		bill.miniaturize();
-	for (int i = 0; i < 18; i++) {
+	for (int i = 0; i < 180; i++) {
 	 bill.move(2);
 	bill.turn(2);
 	}
